@@ -1,0 +1,29 @@
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -20px 0 0 -20px;
+
+  @media ($m-s) {
+    margin: -40px 0 0 -40px;
+  }
+
+  @media ($m-m) {
+    margin: -80px 0 0 -80px;
+  }
+}
+
+.product-list__item {
+  width: 340px;
+  padding: 20px 0 0 20px;
+
+  @media ($m-s) {
+    width: 360px;
+    padding: 40px 0 0 40px;
+  }
+
+  @media ($m-m) {
+    width: 400px;
+    padding: 80px 0 0 80px;
+  }
+}
