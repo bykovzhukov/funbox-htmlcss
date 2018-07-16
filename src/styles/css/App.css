@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Exo 2.0";
-  src: url("/fonts/Exo2.0/Thin.otf");
+  src: url("../../fonts/Exo2.0/Thin.otf");
   font-weight: 200;
   font-style: normal;
 }
@@ -182,7 +182,7 @@ iframe {
 .body {
   font-family: "Trebuchet MS", Arial, sans-serif;
   background: #000;
-  background-image: url("/img/pattern.jpg");
+  background-image: url("../../img/pattern.jpg");
   background-position: 0 0;
   background-repeat: repeat;
   background-size: 70px;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Cat from '../img/cat.png';
 
 export default class Product extends Component {
   constructor(props) {
@@ -68,7 +69,7 @@ export default class Product extends Component {
           <svg className="product__frame">
             <use xmlnsXlink="http://www.w3.org/1999/xlink" xlinkHref="#svg-frame"></use>
           </svg>
-          <img src="img/cat.png" alt="" className="product__img" />
+          <img src={Cat} alt="" className="product__img" />
           {headline}
           <h2 className="product__title">{this.product.title} <span>{this.product.subtitle}</span></h2>
           <div className="product__desc" dangerouslySetInnerHTML={{__html: this.product.description}} />
