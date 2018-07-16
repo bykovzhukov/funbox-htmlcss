@@ -58,6 +58,10 @@
   &--selected-hover {
     color: $c-pink-hover;
   }
+
+  .is-disabled & {
+    color: $c-disabled;
+  }
 }
 
 .product__title {
@@ -72,11 +76,19 @@
     margin-left: 2px;
     font-size: 24px;
   }
+
+  .is-disabled & {
+    color: $c-disabled;
+  }
 }
 
 .product__desc {
   color: $c-gray-text;
   font-size: 14px;
+
+  .is-disabled & {
+    color: $c-disabled;
+  }
 }
 
 .product__size {
