@@ -219,12 +219,7 @@ iframe {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: -20px 0 0 -20px;
-}
-@media (min-width: 768px) {
-  .product-list {
-    margin: -40px 0 0 -40px;
-  }
+  margin: -40px 0 0 -40px;
 }
 @media (min-width: 992px) {
   .product-list {
@@ -233,14 +228,8 @@ iframe {
 }
 
 .product-list__item {
-  width: 340px;
-  padding: 20px 0 0 20px;
-}
-@media (min-width: 768px) {
-  .product-list__item {
-    width: 360px;
-    padding: 40px 0 0 40px;
-  }
+  width: 360px;
+  padding: 40px 0 0 40px;
 }
 @media (min-width: 992px) {
   .product-list__item {
